@@ -146,11 +146,6 @@ header {
     max-width: 50%;
     position: relative;
 }
-.our-left {
-
-    /* margin-top: -15px;
-    max-width: 636px; */
-}
 .our h1 {
     margin-top: -13px;
 }
@@ -583,7 +578,7 @@ hr.ff-end {
 .ninth-floor .contacts h2 {
     font-weight: bold;
     font-size: 18px;
-    line-height: 34px;r;
+    line-height: 34px;
     letter-spacing: 0.32px;
     text-transform: uppercase;
     color: #FFFFFF;
