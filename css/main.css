@@ -602,6 +602,9 @@ footer {
     padding: 48px 0 26px 0;
 
 }
+.footer .copy::before {
+    content: '\00A9'
+}
 .footer .copy {
     line-height: 26px;
     color: #B8B8B8;
