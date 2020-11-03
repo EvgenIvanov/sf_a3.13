@@ -78,7 +78,7 @@ a {
 hr {
     border-top: 2px solid;
 }
-.header-wrapper {
+.header-wrapper, .first-floor {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -168,27 +168,19 @@ main {
     /* display: none; */
 }
 .first-floor {
-    /* padding: 107px 0 108px 0; */
-    /* display: flex;
-    max-width: 1317px; /* 1283px;
-    margin: 0 auto; */
-        padding: 109px 0 97px 34px;
-        display: flex;
-        max-width: 1317px;
-        margin: 0 auto;
-        display: none;
+    padding: 96px 0 34px 0;
 }
 .ff-left {
-    /* max-width: 543px; */
-    /* 1 max-width: 540px;
-    margin: -9px 100px 0 17px; */
-    /* padding:0 1s03px 0 7px; */
-        /* max-width: 543px; */
-        max-width: 540px;
-        margin: -9px 91px 0 17px;
+    /* max-width: 50%; */
+    max-width: 502px;
+    margin-left:11px;
 }
-
-.ff-left h2 {
+.ff-right {
+    max-width: 609px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ff1-left h2 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 42px;
@@ -198,14 +190,14 @@ main {
 }
 .ff-left p {
     line-height: 29px;
-    padding: 32px 0 69px 0;
-    max-width: 532px;
+    padding: 32px 0 64px 0;
+    /* max-width: 532px; */
 }
 .ff-left a {
     border: 2px solid #FF0000;
-    padding: 14px 60px;
+    padding: 14px 59px;
     border-radius: 4px;
-    margin: -2px;
+    /* margin: -2px; */
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
@@ -213,26 +205,17 @@ main {
 .ff-left a:visited {
     color: #FF0000;
 }
-.ff-right {
-    /* display: flex;
-    flex-wrap: wrap;
-    max-width: 677px; */
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 677px;
-}
+
 .ff-item {
-    max-width: 47%;
-    /* padding: 3px 0 0 17px; */
+    max-width: 50%;
+    padding: 13px 0 32px 0px;
+    /* position: relative; */
 }
 .ff-item h3 {
-    font-size: 24px;
-    font-weight: 600;
+    /* font-size: 24px; */
+    /* font-weight: 600; */
     padding: 22px 0 4px 0;
-    letter-spacing: 0.3px;
-}
-.ff-item p {
-    line-height: 28px;
+    /* letter-spacing: 0.3px; */
 }
 hr.ff-end {
     border-color: #ECECEC;
@@ -626,10 +609,25 @@ footer {
     }
 
 }
-
+@media screen and (max-width: 1121px) {
+	.ff-left,
+	.ff-right {
+		width: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    .ff-item {
+        max-width: 48%;
+        padding: 1vw;
+    }
+}
 @media screen and (max-width: 860px) {
+    h2 { font-size: 36px;}
     .header-wrapper {
         flex-wrap: wrap;
+    }
+    .header-wrapper h1 {
+        font-size: 45px;
     }
     .our, .our a {
         position: initial;
@@ -646,4 +644,10 @@ footer {
         height: auto;
     }
 
+}
+@media screen and (max-width: 600px) {
+	.ff-item {
+        max-width: 100%;
+        /* padding: 1vw; */
+    }
 }
