@@ -299,7 +299,7 @@ hr.ff-end {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../img/alien.jpg');
-    background-color: rgb(156, 93, 90);
+    background-color: rgb(87, 89, 96);
 }
 .sixth-floor .colleges {
     max-width: 856px;
@@ -312,13 +312,13 @@ hr.ff-end {
     font-size: 30.127px;
     letter-spacing: 0.27px;
     text-transform: uppercase;
-    margin-top: 9px;
+    margin-top: 5px;
 }
 .colleges p {
     /* padding: 16px 0 41px 0px;
     max-width: 635px;
     line-height: 28px; */
-    margin: 14px 0px 41px 1px;
+    margin: 15px 0px 41px 3px;
 }
 .colleges ul {
     display: flex;
@@ -353,25 +353,25 @@ hr.ff-end {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../img/lady_bug.jpg');
-    background-color: rgb(156, 93, 90);
+    background-color: rgb(173, 54, 93);
 }
 .img-cat-noir{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../img/cat_noir.jpg');
-    background-color: rgb(156, 93, 90);
+    background-color: rgb(123, 144, 131);
 }
 .img-lady-bee{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../img/lady_bee.jpg');
-    background-color: rgb(156, 93, 90);
+    background-color: rgb(111, 103, 98);
 }
 .img-bob{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../img/bob-builder.jpg');
-    background-color: rgb(156, 93, 90);
+    background-color: rgb(102, 133, 138);
 }
 .colleges .img-coll {
     width: 199px;
@@ -444,6 +444,7 @@ hr.ff-end {
     background-color: #FFF;
     border-radius: 6px;
     width: 507px;
+    border: none;
 }
 .seventh-floor button {
     font-weight: bold;
@@ -455,6 +456,7 @@ hr.ff-end {
     padding: 1px 54px 0px 54px;
     border-radius: 6px;
     margin-left: 19px;
+    border: none;
 }
 .eighth-floor {
     display: flex;
