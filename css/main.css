@@ -181,10 +181,10 @@ header {
     /* max-width: 532px; */
 }
 .ff-left a {
+    color: #FF0000;
     border: 2px solid #FF0000;
     padding: 14px 59px;
     border-radius: 4px;
-    /* margin: -2px; */
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
